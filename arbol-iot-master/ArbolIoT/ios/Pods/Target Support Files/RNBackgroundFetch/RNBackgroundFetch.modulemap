@@ -1,0 +1,6 @@
+framework module RNBackgroundFetch {
+  umbrella header "RNBackgroundFetch-umbrella.h"
+
+  export *
+  module * { export * }
+}

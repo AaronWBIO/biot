@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1018947957346",
+    "firebase_url": "https://biot-2.firebaseio.com",
+    "project_id": "biot-2",
+    "storage_bucket": "biot-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018947957346:android:77d68e5878e1883a",
+        "android_client_info": {
+          "package_name": "com.arboliot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018947957346-9ctav3d0ha73bn9vcltt5eqddvr1d324.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arboliot",
+            "certificate_hash": "005c2feada0a98b34543aba9f95765e12d81fe92"
+          }
+        },
+        {
+          "client_id": "1018947957346-mablr5039lh14rns33q4a36a1jubju95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOJ1M2HK2uPoPp-g_GhBbYTxFKoNUyhRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018947957346-mablr5039lh14rns33q4a36a1jubju95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

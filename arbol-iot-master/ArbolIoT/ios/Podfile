@@ -1,0 +1,42 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+target 'ArbolIoT' do
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'CxxBridge',
+    'RCTText',
+    'RCTAnimation',
+    'RCTNetwork',
+    'RCTActionSheet',
+    'RCTWebSocket',
+    'RCTImage',
+    'DevSupport',
+    'RCTNetwork',
+    # Add any other subspecs you want to use in your project
+    'RCTLinkingIOS'
+  ]
+pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'GoogleSignIn', '~> 4.4.0'
+  pod 'DCTAuth', :git => 'https://github.com/danielctull/DCTAuth.git'
+  pod 'Firebase/Core', '~> 6.2.0'
+  pod 'Firebase/Messaging', '~> 6.2.0'
+  pod 'RNBackgroundFetch', :path => '../node_modules/react-native-background-fetch'
+  pod 'react-native-netinfo', :path => '../node_modules/@react-native-community/netinfo'
+
+  pod 'RNViewShot', :path => '../node_modules/react-native-view-shot'
+
+  pod 'react-native-orientation', :path => '../node_modules/react-native-orientation'
+
+  pod 'react-native-image-resizer', :path => '../node_modules/react-native-image-resizer'
+
+end
+post_install do |installer|
+  system("mkdir -p Pods/Headers/Public/FirebaseCore && cp Pods/FirebaseCore/Firebase/Core/Public/* Pods/Headers/Public/FirebaseCore/")
+  installer.pods_project.targets.each do |target|
+      if target.name == "React"
+          target.remove_from_project
+      end
+  end
+end

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>checked copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Registro-exitoso" transform="translate(-157.000000, -180.000000)" fill="#78C469" fill-rule="nonzero">
+            <g id="checked-copy" transform="translate(157.000000, 180.000000)">
+                <path d="M30.5,0 C13.6561104,0 0,13.6555385 0,30.5 C0,47.3444615 13.6561104,61 30.5,61 C47.3457482,61 61,47.3444615 61,30.5 C61,13.6555385 47.3451763,0 30.5,0 Z M24.9599005,45.75 L11.6617647,32.5010553 L16.0940991,28.0849284 L24.9599005,36.9177463 L44.9059009,17.0441176 L49.3382353,21.4602445 L24.9599005,45.75 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
