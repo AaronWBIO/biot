@@ -18,7 +18,7 @@
     "native-base": "^2.12.1",
     "polygon-centroid": "^1.1.0",
     "react": "16.6.3",
-    "react-native": "0.57.8",
+    "react-native": "0.70.3",
     "react-native-awesome-alerts": "^1.2.0",
     "react-native-background-fetch": "^2.6.1",
     "react-native-base64": "0.0.2",
